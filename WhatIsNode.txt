@@ -1,0 +1,51 @@
+### What is Node.js?
+
+-> Node.js is a runtime environment that lets you run JavaScript outside the browser (usually on a server).
+
+In short:
+- Browser -> runs JS for frontend (like buttons, DOM, etc.)
+- Node.js -> runs JS on the server (like handling APIs, databases, files)
+
+Node.js is built on:
+- V8 Engine (same engine Chrome uses to run JS)
+- libuv library (handles asynchronous I/O operations efficiently)
+
+That’s why Node.js is:
+- Fast
+- Non-blocking (uses event loop)
+- Great for backend servers & APIs
+
+### Example: JS in Browser vs Node
+
+In Browser JS:
+
+console.log("Hello from browser!");
+alert("Hi!");
+
+
+In Node.js:
+
+console.log("Hello from Node!");
+(no `alert` here, because Node doesn’t have a browser or DOM)
+
+### Installing Node.js
+
+1. Go to [https://nodejs.org](https://nodejs.org)
+2. Download **LTS version**
+3. Install it -> then check in your terminal :
+
+node -v or node --version
+npm -v or npm --version
+
+These commands show Node and npm (Node Package Manager) versions.
+
+### Run Your First Node File
+
+1. Create a file `app.js`
+2. Write:
+   console.log("Hello from Node.js!");
+3. Open terminal -> run:
+   node app.js
+
+You’ll see:
+Hello from Node.js!
