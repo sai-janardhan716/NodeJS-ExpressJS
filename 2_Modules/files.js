@@ -58,3 +58,29 @@ function addFile(id, fname, content, rootFolder){
     console.log(`File Added Successfully`);
 }
 module.exports = ({retriveFile,addFile}); // Used to export the methods in this module(file)
+console.log(module);
+// Here thr module is an object representation of this file which contains its meta data like
+/*
+    {
+    id: '.',
+    path: 'B:\\Backend\\NodeJS-ExpressJS\\2_Modules',
+    exports: {
+        retriveFile: [Function: retriveFile],
+        addFile: [Function: addFile]
+    },
+    filename: 'B:\\Backend\\NodeJS-ExpressJS\\2_Modules\\files.js',
+    loaded: false,
+    children: [],
+    paths: [
+        'B:\\Backend\\NodeJS-ExpressJS\\2_Modules\\node_modules',
+        'B:\\Backend\\NodeJS-ExpressJS\\node_modules',
+        'B:\\Backend\\node_modules',
+        'B:\\node_modules'
+    ],
+    [Symbol(kIsMainSymbol)]: true,
+    [Symbol(kIsCachedByESMLoader)]: false,
+    [Symbol(kURL)]: undefined,
+    [Symbol(kFormat)]: 'commonjs',
+    [Symbol(kIsExecuting)]: true
+    }
+*/
