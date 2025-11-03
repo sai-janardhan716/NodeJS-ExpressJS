@@ -1,0 +1,2 @@
+Hello, this is written synchronously!
+This line was appended!
